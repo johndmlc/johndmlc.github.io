@@ -17,7 +17,7 @@
 
     function sayHello() {
         Excel.run(context => {
-            context.workbook.worksheets.getActiveWorksheet().getRange("A1").values = [['Hello world!']];
+            context.workbook.worksheets.getActiveWorksheet().getRange("A1").values = [['Hello world LC!']];
             return context.sync();
         });
     }
